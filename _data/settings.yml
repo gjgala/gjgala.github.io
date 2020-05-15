@@ -61,8 +61,8 @@ social_settings:
 color_settings:
   background_color: '#080C12'
   background_alt_color: '#2F2F2F'
-  text_dark_color: '#4F4F4F'
-  text_medium_color: '#F8F8F8'
+  text_dark_color: '#E0E0E0'
+  text_medium_color: '#F0F0F0'
   text_light_color: '#FCFCFC'
   accent_color: '#DBFCCA'
   border_color: '#999999'
