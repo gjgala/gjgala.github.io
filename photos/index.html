@@ -1,0 +1,47 @@
+---
+layout: default
+title: Photo
+subtitle: My Photos
+description: 
+featured_image: /images/side_pattern.jpg
+---
+
+<section class="intro">
+
+	<div class="wrap">
+
+		<h1>{{ page.title }}</h1>
+		<p>{{ page.subtitle }}</p>
+
+	</div>
+
+</section>
+
+<section class="portfolio">
+
+	<div class="wrap">
+
+		{% for photo in site.photos reversed %}
+
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ photo.url }}">
+
+				<div class="portfolio-item__image" style="background-image: url({{ photo.featured_image  }});"></div>
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ photo.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ photo.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</section>
