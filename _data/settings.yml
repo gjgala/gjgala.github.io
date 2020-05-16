@@ -14,7 +14,7 @@ menu_settings:
       url: '/'
     - title: 'Projects'
       url: '/projects/'
-    - title: 'Photos'
+    - title: 'Photography'
       url: '/photos/'
     - title: 'About'
       url: '/about'
